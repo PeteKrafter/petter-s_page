@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif; /* Optional: Choose a font for your game */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    text-align: center; /* Center align all content */
+}
+
+/* Home/Back Button Start */
+
+#home-button {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: auto;
+}
+
+#back-button,
+#back-button2,
+#back-button3 {
+    position: fixed;
+    top: 0px;
+    left: 50px;
+    width: 50px;
+    height: auto;
+}
+
+/* Home/Back Button End */
+/* Button Stuff Start */
+
+.button {
+    margin-top: 20px; /* Adjust margin-top to space out the buttons */
+    font-size: 16px; /* Optional: Adjust font size of the buttons */
+    padding: 10px 20px; /* Optional: Add padding to the buttons */
+    background-color: #007bff; /* Optional: Change the background color of the buttons */
+    color: #fff; /* Optional: Change the text color of the buttons */
+    border: none; /* Optional: Remove border from the buttons */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 5px; /* Optional: Add border radius to the buttons */
+}
+
+
+.button:hover {
+    background-color: #0056b3; /* Optional: Change background color on hover */
+}
+
+/* Button Stuff End */
+/* Areas Start */
+
+#starting-stuff {
+    margin-top: 0px; /* Add margin-top to space out the content */
+    font-size: 20px;
+}
+
+#petter-stuff {
+    display: none;
+    margin-top: 0px; /* Add margin-top to space out the content */
+    font-size: 20px;
+}
+
+#petekrafter-stuff,
+#games-stuff {
+    display: none;
+    margin-top: 0px; /* Add margin-top to space out the content */
+    font-size: 20px;
+}
+
+#petekrafter-text,
+#games-text {
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/*Areas End*/
